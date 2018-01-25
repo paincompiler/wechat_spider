@@ -1,4 +1,7 @@
+
 # wechat_spider 微信爬虫
+
+*This project is a fork of [lqqyt2423/wechat_spider](https://github.com/lqqyt2423/wechat_spider). Please contact the original author for the license info.*
 
 基于Node 的微信爬虫，通过中间人代理的原理，批量获取微信文章数据，包括阅读量、点赞量和评论等数据。使用代理模块 Anyproxy。
 
