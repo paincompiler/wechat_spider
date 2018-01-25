@@ -88,7 +88,8 @@ module.exports = {
   },
 
   shouldInterceptHttpsReq :function(req) {
-    if (req.headers.host === 'mp.weixin.qq.com') return true;
+    console.log('host:', req.headers.host);
+    if (req.headers.host.indexOf('mp.weixin.qq.com') > -1) return true;
     return false;
   }
 };
